@@ -25,3 +25,19 @@ function App() {
 }
 
 export default App
+
+//URL Script
+// let captureFlag = () => {
+//   let flag = '';
+//   const selector = 'code[data-class^="23"] > div[data-tag$="93"] > span[data-id*="21"] > i';
+
+//   let finalCodes = Array.from(document.querySelectorAll(selector));
+//   finalCodes.forEach((tag) => {
+//       let value = tag.attributes.value.value;
+//       flag += value;
+//   });
+
+//   console.log(flag);
+// }
+
+// captureFlag();
